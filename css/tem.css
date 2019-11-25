@@ -1,0 +1,202 @@
+
+body{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+    padding: 0;
+}
+.header{
+	
+	display: flex;
+	background-color: #333333;
+	margin: 0;
+	justify-content:center;
+	padding: 1em;
+}
+
+
+.base{
+	
+	flex-grow: 0.6;
+	
+}
+
+.basic{
+	margin-bottom: auto;
+	font-weight: 500;
+	font-size: 37px;
+	margin-top: 10px;
+}
+.basic a{
+	color: #C0BAB6;
+    text-decoration: none;
+	
+}
+
+
+
+.h2{
+	color: #C0BAB6;
+	font-size: 13px;
+	margin-top: auto;
+	font-weight: 500;
+}
+.menue{
+	display: flex;
+/*	flex-grow: ;*/
+}
+
+.nave{
+	display: flex;
+	background-color: #232323;
+}
+
+.nave a:hover{
+	color: #FF9900;
+	
+}
+
+.item{
+	
+	list-style: none;
+	text-transform:  uppercase;
+	
+}
+
+.item a {
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  padding: 20px 15px;
+  	color: #C0BAB6;
+	font-size:15px; 
+}
+
+.flex-contianer{
+	display: flex;
+	padding: 25px 0;
+    flex-wrap: wrap;
+	width: ;
+	justify-content: center;
+
+	
+}
+
+.first-contian{
+	padding: 10px;
+	display: flex;
+	width: 970px;
+	
+}
+.eu{
+	font-weight: 500;
+	font-size: 42px;
+	font-style: italic;
+	margin: auto;
+	
+/*	Georgia, "Times New Roman", Times, serif*/
+}
+
+.text1{
+    width:320px;
+	background-color: #DEDEDE;
+	color: #989898;
+	padding: 20px;
+	margin: 5px;
+	width: 280px;
+    height: 260px;
+    
+}
+
+.image{
+	
+    margin: 5px;
+}
+
+.second-contian{
+	display: flex;
+	color: #989898;
+	padding: 10px;
+	width: 970px;
+}
+
+.text2{
+	
+	padding: 15px;
+}
+.p1{
+	
+	
+}
+
+.img1{
+	float: left;
+    margin: 0 10px 10px 0;
+	padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+
+.img2{
+	margin:0 0 10px 0;
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+}
+
+.third-contian{
+	display: flex;
+	color: #989898;
+	padding: 10px;
+	width: 970px;
+}
+
+.text3{
+	padding: 15px;
+}
+
+h5{
+	margin: auto;
+}
+
+.more{
+	text-align: right;
+	display: block;
+	color: #FF9900;
+	font-size: 13px;
+	text-decoration: none;
+}
+.p3{
+    font-size: 13px;
+	line-height: 1.6;
+}
+
+h4{
+	font-size: 14px;
+}
+
+.footer{
+	background-color: #232323;
+	color: #919191;
+	display: flex;
+	padding: 20px 0;
+	justify-content: space-around;
+}
+
+.copy{
+	font-size: 13px;
+	flex-grow: ;
+	
+	
+}
+.copy a{
+	text-decoration: none;
+	color: #919191;
+}
+.os_template{
+	font-size: 13px;
+	flex-grow: ;
+	
+}
+
+.os_template a{
+	text-decoration: none;
+	color: #919191;
+}
